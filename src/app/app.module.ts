@@ -18,6 +18,9 @@ import { MessageListComponent, MessageFormComponent, MessageItemComponent } from
     FormsModule,
     HttpModule
   ],
+  // exports: [
+  //   MessageListComponent, MessageFormComponent, MessageItemComponent
+  // ],
   providers: [
     DialogflowService
   ],
